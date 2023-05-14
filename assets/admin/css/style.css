@@ -1,0 +1,337 @@
+.alert-danger ul li{
+	display: inline-block;
+  }
+  .activate_user{
+	  cursor: pointer !important;
+	  color: #fff !important;
+	  width: 120px;
+  }
+  .activate_user.stop{
+	  background: red;
+  
+  }
+  .activate_user.active{
+	  background: red;
+  }
+  #documents_ul{
+	  padding: 0;
+  }
+  #documents_ul li{
+	  display: inline-block;
+	  position: relative;
+	  margin: 5px;
+  }
+  #documents_ul li img{
+	  height: 150px;
+  }
+  #documents_ul li .close_img, li .close_img{
+	  position:absolute;
+	  color: red !important;
+	  font-size: 22px;
+	  background: #dc35452b;
+	  height: 30px;
+	  width: 22px;
+	  text-align: center;
+	  cursor: pointer;
+  }
+  .status_check_box{
+	  margin-left: 20px;
+	  margin-right: 5px;
+  }
+  
+  .pull-right{
+	  float: right;
+  }
+  .documents_list{
+	  padding: 0;
+  }
+  .documents_list li{
+	  width: 50%;
+	  float: left;
+	  text-align:center;
+  }
+  .documents_list li img{
+	  height:300px
+  }
+  .delete_item{
+	  position: absolute;
+	  right: 8%;
+	  top: 15px;
+	  cursor: pointer;
+	  color: red !important;
+	  font-size: 22px;
+	  font-weight: bolder;
+  }
+  #add_type{
+	  color: #fff;
+	  float: left;
+  }
+  .service_item{
+	  position: relative;
+	  border: 1px solid #eee;
+	  padding: 15px;
+  }
+  .close_item{
+	  position: absolute;
+	  right: 0;
+	  color: red !important;
+	  font-size: 16px;
+	  font-weight: bolder;
+	  top: 0;
+	  cursor: pointer;
+	  z-index: 5;
+  }
+  .select2-container .select2-selection--single{
+	  height: 40px;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+	  color: #444;
+	  line-height: 40px;
+	  text-align: left;
+  }
+  .select2-container--default .select2-selection--single {
+	  border: 1px solid #aaaaaa61;
+  }
+  .add_invoice{
+	  font-size: 22px;
+	  line-height: 12px;
+  }
+  @media (min-width: 576px){
+	  .modal-dialog.popup_form {
+		  max-width: 80vw;
+		  margin: 1.75rem auto;
+	  }
+  }
+  #cart_count,#batch_cart_count , #driver_cart_count{
+	  color: red;
+	  font-size: 18px;
+	  margin-left:10px;
+  }
+  .cart_quntity{max-width: 180px;}
+  .add_batch{
+	  font-size: 22px;
+	  line-height: 12px;
+	  position: relative;
+  }
+  span.btn_loader{
+	  position:relative;
+	  display:block;
+  }
+  .btn_loader:after{
+	  content:' ';
+	  height:100%;
+	  width:100%;
+	  position:absolute;
+	  z-index:20;
+	  background: #eee;
+	  left: 0;
+	  top: 0;
+	  background-image: url('../images/loader.gif');
+	  border: 2px solid #575f9b;
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  z-index: 100;
+	  border: none;
+	  outline: none;
+  }
+  .in_batch,.in_batch:hover{
+	  background:red;
+  }
+  .table_select{
+	  width: 250px !important;
+  }
+  .add_invoice.in_cart{
+	  background:blue;
+  }
+  .pagination {display: block;}
+  .pagination li{
+	  display: inline-block;
+  }
+  .choose_status{
+	  display: block;
+	  text-align: left;
+	  background: #fff;
+	  border-radius: 10px;
+  }
+  .choose_status li{
+	  font-size: 18px;
+	  display: inline-block;
+	  margin: 30px;
+  }
+  #notifications_count{
+	  color: red;
+	  position: absolute;
+	  top: 50%;
+	  right: 8px;
+	  font-size: 16px;
+  }
+  .add_grv{
+	  cursor: pointer;
+	  color: #fff !important;
+  }
+  .grv_item{
+	  margin-bottom: 30px;
+	  position: relative;
+	  padding: 10px;
+	  border: 1px dashed;
+  }
+  .search-form .form-control,.search-form .select2-container{
+	  margin-bottom: 20px;
+  }
+  .imgs_ul li{
+	  display: inline-block;
+	  position: relative;
+	  margin-right: 15px;
+	  float: left;
+	  width: 25%;
+	  margin-bottom: 15px;
+  }
+  .imgs_ul li img , .imgs_ul li iframe{
+	  height: 150px;
+  }
+  .add_normal{
+	  padding: 1px 10px;
+	  color: #fff !important;
+	  font-size: 22px;
+	  background: aqua;
+	  border-color: aqua;
+	  display: inline-block;
+	  position: relative;
+  }
+  #normal_cart_count{
+	  color: red;
+	  font-size: 18px;
+	  margin-left: 10px;
+  }
+  .add_normal.in_normal{
+	  background:red;
+  }
+  .driver_cart{
+	  position: relative;
+  }
+  .driver_cart.in_cart{
+	  background: red;
+  }
+  @media(max-width: 992px){
+	  .dropdown.dropdown-animated.scale-left .dropdown-menu{
+		  right: -70px !important;
+	  }
+  }
+  .loader_td{
+	  position: relative;
+  }
+  .clear-fix{
+	  clear: both;
+	  height: 20px;
+	  background: #fff;
+	  width: 100%;
+  }
+  .view_eye{
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  z-index: 100;
+	  background: #eee;
+	  font-size: 16px;
+	  height: 30px;
+	  width: 30px;
+	  text-align: center;
+	  line-height: 30px;
+  }
+  .use_state_0{
+	  background-color: #f109090a;
+  }
+  /*.search-form .lable-control{
+	  margin-to: 15px;
+  }*/
+  .home-ul{padding: 0;}
+  .home-ul li{display: block;padding: 5px;min-width: 25%;float: left;}
+  .home-ul a.btn{display: block;}
+  .label-control{
+	  display: block;
+  }
+  .note-number{
+	  position: absolute;
+	  top: 0;
+	  right: 10px;
+	  color: red;
+	  font-size: 22px;
+	  font-weight: bolder;
+  }
+  .note-holder{
+	  position: relative;
+  }
+  .justify-between{
+	  display: none;
+  }
+  .current_row td{
+	  border-top:none;
+  }
+  .area-ul li{
+	  display: inline-block;
+  margin-bottom: 20px;}
+  .area-ul a{
+	  
+  }
+  .permissions-ul li{
+	  color: #000;
+  display: inline-block;font-weight: bolder;padding: 15px;min-width: 19%;border: 1px solid #eeeeee29;margin-bottom: 5px;line-height: 25px;}
+  .permissions-ul{
+	  
+  text-align: right;}
+ .permissions-ul li input{
+	 margin-left:5px;
+}
+ .form_loader {
+    position: relative;
+}
+.form_loader:before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: #ffffff;
+}
+.form_loader:after {
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    /* background: red; */
+    top: calc(50% - 25px);
+    z-index: 11;
+    /* background: #fff; */
+    background-image: url(https://pokemon-world-imdoug.netlify.app/img/pokeball.svg);
+    border: 2px solid #575f9b;
+    border-radius: 50%;
+    background-size: cover;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+.already_accepted{
+    position:relative;
+}
+.already_accepted:after{
+    position:absolute;
+    top:0;
+    right:0;
+    content:'Already accepted';
+    height:100%;
+    width:100%;
+    z-index:1000;
+    background: #fff;
+    line-height: 70px;
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}

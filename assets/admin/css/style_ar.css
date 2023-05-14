@@ -1,0 +1,29 @@
+body{
+	direction: rtl;
+}
+.pull-right{
+	float: left;
+}
+.home-ul li{
+	float: right;
+}
+.general-ul li{
+	float: right;
+}
+.note-number{
+	left: 10px;
+	right: auto !important;
+}
+.grv_item{
+	text-align: right;
+}
+.close_item{
+	left: 0;
+	right: auto;
+}
+.single_page{
+	text-align: right;
+}
+.area-ul{
+	text-align: right;
+}
